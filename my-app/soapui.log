@@ -1,0 +1,29 @@
+2020-10-08 10:50:59,175 WARN  [SoapUI] Missing folder [C:\Users\RaniJhansiDontha\Desktop\Project\my-app\my-app\ext] for external libraries
+2020-10-08 10:50:59,395 INFO  [DefaultSoapUICore] initialized soapui-settings from [C:\Users\RaniJhansiDontha\soapui-settings.xml]
+2020-10-08 10:51:00,535 INFO  [WsdlProject] Loaded project from [file:/C:/Users/RaniJhansiDontha/Desktop/Project/my-app/my-app/calculator-soapui-project.xml]
+2020-10-08 10:51:01,239 INFO  [SoapUITestCaseRunner] Running SoapUI tests in project [calculator]
+2020-10-08 10:51:01,241 INFO  [SoapUITestCaseRunner] Running Project [calculator], runType = SEQUENTIAL
+2020-10-08 10:51:01,271 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Sub]
+2020-10-08 10:51:01,279 INFO  [SoapUITestCaseRunner] running step [Subtract - Request 1]
+2020-10-08 10:51:02,509 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-10-08 10:51:02,509 INFO  [SoapUITestCaseRunner] Assertion [XPath Match] has status VALID
+2020-10-08 10:51:02,510 INFO  [SoapUITestCaseRunner] Assertion [XPath Match 1] has status FAILED
+2020-10-08 10:51:02,513 ERROR [SoapUITestCaseRunner] ASSERTION FAILED -> XPathContains assertion failed for path [//*:SubtractResult] : Exception:Missing content for xpath [//*:SubtractResult] in Response
+2020-10-08 10:51:02,514 INFO  [SoapUITestCaseRunner] Assertion [XPath Match] has status VALID
+2020-10-08 10:51:02,514 ERROR [SoapUITestCaseRunner] Subtract - Request 1 failed, exporting to [C:\Users\RaniJhansiDontha\Desktop\Project\my-app\my-app\target/surefire-reports\TestSuite_1-Sub-Subtract__Request_1-0-FAILED.txt]
+2020-10-08 10:51:02,524 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Sub], time taken: 1223ms, status: FAILED
+2020-10-08 10:51:02,525 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Add]
+2020-10-08 10:51:02,525 INFO  [SoapUITestCaseRunner] running step [Add - Request 1]
+2020-10-08 10:51:03,007 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-10-08 10:51:03,008 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Add], time taken: 480ms, status: FINISHED
+2020-10-08 10:51:03,026 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Add and Mul]
+2020-10-08 10:51:03,026 INFO  [SoapUITestCaseRunner] running step [Input Numbers]
+2020-10-08 10:51:03,042 INFO  [SoapUITestCaseRunner] running step [Groovy Script to get numbers from Prop]
+2020-10-08 10:51:03,482 INFO  [SoapUITestCaseRunner] running step [Mul Numbers]
+2020-10-08 10:51:03,869 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-10-08 10:51:03,869 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status FAILED
+2020-10-08 10:51:03,871 ERROR [SoapUITestCaseRunner] ASSERTION FAILED -> Response is a SOAP Fault
+2020-10-08 10:51:03,873 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-10-08 10:51:03,874 ERROR [SoapUITestCaseRunner] Mul Numbers failed, exporting to [C:\Users\RaniJhansiDontha\Desktop\Project\my-app\my-app\target/surefire-reports\Script_for_property-Add_and_Mul-Mul_Numbers-0-FAILED.txt]
+2020-10-08 10:51:03,877 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Add and Mul], time taken: 837ms, status: FAILED
+2020-10-08 10:51:03,878 INFO  [SoapUITestCaseRunner] Project [calculator] finished with status [FAILED] in 2632ms
